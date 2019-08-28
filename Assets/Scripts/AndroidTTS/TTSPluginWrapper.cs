@@ -42,7 +42,7 @@ public class TTSPluginWrapper : MonoBehaviour
 
     #region Plugin Functions
     /// <summary>
-    /// Sets 
+    /// Setup for the plugin
     /// </summary>
     void Initialize()
     {
@@ -66,7 +66,7 @@ public class TTSPluginWrapper : MonoBehaviour
         ttsClass.Call("SetPitch", pitch);
     }
     /// <summary>
-    /// Set teh TTS voice Speed
+    /// Set the TTS voice Speed
     /// </summary>
     /// <param name="speed"></param>
     public void SetSpeed(float speed)
@@ -75,7 +75,7 @@ public class TTSPluginWrapper : MonoBehaviour
     }
 
     /// <summary>
-    /// Test function for the plugin
+    /// The TTS function that will start a new TTS
     /// </summary>
     public void TTS(string textToTTS)
     {
